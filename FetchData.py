@@ -28,23 +28,10 @@ class DataFetcher(object):
         for i in range(0, len(self.sheets)):
             if i == 0:
                 questions[0] = self.sheets[0].col_values(0)
-        #         answers[0].append(sheets[0].col_values(1))
-        #         options[0][0].append(sheets[0].col_values(2))
-        #         options[0][1].append(sheets[0].col_values(3))
-        #         options[0][2].append(sheets[0].col_values(4))
-        #         options[0][3].append(sheets[0].col_values(5))
-        #         options[0][4].append(sheets[0].col_values(6))
             elif i == 1:
                 questions[1] = self.sheets[1].col_values(0)
-        #         answers[1].append(sheets[1].col_values(1))
-        #         options[1][0].append(sheets[1].col_values(2))
-        #         options[1][1].append(sheets[1].col_values(3))
-        #         options[1][2].append(sheets[1].col_values(4))
-        #         options[1][3].append(sheets[1].col_values(5))
-        #         options[1][4].append(sheets[1].col_values(6))
             elif i == 2:
                 questions[2] = self.sheets[2].col_values(0)
-        #         answers[2].append(sheets[2].col_values(1))
             else:
                 pass
 
